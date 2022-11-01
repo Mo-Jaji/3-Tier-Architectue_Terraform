@@ -17,3 +17,8 @@ AWS Secret Access Key [****************XXXX]:
 Default region name [us-east-1]:
 Default output format [json]:
 ```
+2. Terraform Core Commmands
+- Terraform consists of 4 core commmands which allow you to initialize, validate, verify and executes. Navigate to the directory downloaded form `./code/` repo which contains the all the files (modules,resources,providers, varibles etc).
+
+1. `terraform init` : allows you to run the files you have in the directory. This initializes the code in directory and downloads all the required plugins inlustrated in the code.
+2. `terraform`

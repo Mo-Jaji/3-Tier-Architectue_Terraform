@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+Checking for conmection
+
 ---
 
 Aws account should be created

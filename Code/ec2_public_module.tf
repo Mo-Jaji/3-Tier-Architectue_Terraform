@@ -5,7 +5,8 @@ module "my_public_ec2" {
  # insert the 34 required variables here
 
   name = "${var.my_environment}-Public_EC2_Intance"
-  # instance_count = 5 as it only for one instance we dont need count but I have added for future 
+
+  # instance_count = 5 as it's only for one instance, we don't need count but I have added it for future 
 
   ami           = data.aws_ami.my_amzlinux2.id
   instance_type = var.instance_type

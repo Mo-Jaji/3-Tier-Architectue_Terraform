@@ -9,8 +9,7 @@ output "vpc_id" {
 # VPC CIDR blocks
 output "vpc_cidr_block" {
   description = "The CIDR block of the VPC"
-  value       = module.my_vpc.vpc_cidr_block # it address the vpc file in the order of manner, ie module.vpc is module define in the module file and VPC CIDR Block
-}
+  value       = module.my_vpc.vpc_cidr_block 
 
 # VPC Private Subnets
 output "private_subnets" {

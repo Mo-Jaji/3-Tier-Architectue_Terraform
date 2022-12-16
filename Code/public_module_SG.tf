@@ -9,10 +9,10 @@ module "my_public_bastion_SG" {
   vpc_id      = module.my_vpc.vpc_id 
 
   # Ingress Rules & CIDR Block  
-  ingress_rules = ["ssh-tcp"] #tcp = port 22 on aws consol
-  ingress_cidr_blocks = ["0.0.0.0/0"] #meaning it can be open from entire internet 
+  ingress_rules = ["ssh-tcp"] 
+  ingress_cidr_blocks = ["0.0.0.0/0"] 
 
   # Egress Rule - all-all open
-  egress_rules = ["all-all"] # for entire outbound rules
+  egress_rules = ["all-all"] 
   tags = local.common_tags 
 }
